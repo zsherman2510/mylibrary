@@ -1,9 +1,10 @@
 import React from "react";
 import Nav from "../Nav";
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div>
       <Nav />
+      <div>{children}</div>
     </div>
   );
 };
